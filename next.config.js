@@ -6,17 +6,9 @@ const nextConfig = {
   },
   images: { 
     unoptimized: true,
-    domains: ['localhost'],
   },
   typescript: {
     ignoreBuildErrors: false,
-  },
-  swcMinify: true,
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
-  },
-  experimental: {
-    optimizeCss: true,
   },
 };
 
